@@ -8,6 +8,12 @@
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/service-hi/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/serice-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/service-netflix-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zipkin-test/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin/pom.xml" />
       </list>
     </option>
   </component>
