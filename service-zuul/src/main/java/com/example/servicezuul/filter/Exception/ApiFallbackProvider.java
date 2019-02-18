@@ -24,7 +24,7 @@ public class ApiFallbackProvider implements FallbackProvider {
     //指定要处理的服务
     @Override
     public String getRoute() {
-        return "ervice-feign";
+        return "service-feign";
     }
 
     public ClientHttpResponse fallbackResponse() {

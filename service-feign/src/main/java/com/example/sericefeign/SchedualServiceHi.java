@@ -13,6 +13,4 @@ public interface SchedualServiceHi {
 
     @RequestMapping(value = "/test",method = RequestMethod.GET)
     String sayTestFromClientOne(@RequestParam(value = "name") String name);
-
-
 }

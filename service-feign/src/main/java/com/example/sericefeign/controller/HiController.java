@@ -4,6 +4,7 @@ import com.example.sericefeign.SchedualServiceHi;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
  * @Date 2018/12/28 18:20
  */
 @RestController
+@EnableHystrixDashboard
 public class HiController {
     @Autowired
     private SchedualServiceHi schedualServiceHi;
